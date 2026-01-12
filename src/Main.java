@@ -7,7 +7,7 @@ public class Main {
         int[] array = new int[5];
         Scanner scanner = new Scanner(System.in);
 
-        // Inizializzazione array con valori casuali tra 1 e 10
+
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 10) + 1;
         }
@@ -37,7 +37,7 @@ public class Main {
         scanner.close();
     }
 
-    // Metodo per stampare l'array
+    
     private static void stampaArray(int[] array) {
         System.out.print("Stato dell'array: ");
         for (int numero : array) {
