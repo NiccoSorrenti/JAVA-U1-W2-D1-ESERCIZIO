@@ -37,7 +37,7 @@ public class Main {
         scanner.close();
     }
 
-    
+
     private static void stampaArray(int[] array) {
         System.out.print("Stato dell'array: ");
         for (int numero : array) {
